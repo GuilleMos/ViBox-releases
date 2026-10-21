@@ -21,6 +21,9 @@ que configura cada usuario.
 
 ## Funciones
 
+- **Dos modos**: *Solo apps* (una pantalla de inicio limpia y sin anuncios con tus apps favoritas, recientes, por
+  categoría, entradas HDMI y la hora; sin cuentas) o *Películas, series y apps* (todo lo de abajo). Se elige al abrir
+  ViBox por primera vez y se cambia en *Ajustes → Cómo usas ViBox*, igual que la portada y las secciones del menú.
 - **Portada como Netflix**, con el tráiler que empieza solo a los pocos segundos (en español si pones tu clave de TMDB).
 - **Reproducir con un clic**: ViBox elige la mejor fuente (tu idioma, lista para ver al momento y la mejor calidad que permitas).
 - **Reproductor propio**: «Saltar intro» y «Saltar resumen», cuenta atrás para el siguiente episodio (que ya está preparado),
@@ -30,7 +33,7 @@ que configura cada usuario.
 - **Búsqueda global y por voz**: películas, series, tus complementos, YouTube y tus apps a la vez.
 - **Perfiles** con avatar, PIN y perfil infantil. Cada perfil tiene su propio «Seguir viendo», sus listas y sus cuentas
   (o comparte las que quieras con otro perfil).
-- **Cuenta de ViBox** (opcional): la misma experiencia en la TV y en la web, Real-Debrid / AllDebrid, Trakt, «Ver en la TV»
+- **Cuenta de ViBox** (opcional): la misma experiencia en la TV y en la web, Real-Debrid, AllDebrid, Premiumize, TorBox o Debrid-Link, Trakt, «Ver en la TV»
   desde el navegador y **el móvil como mando** (cruceta, reproducción, volumen, escribir y cola).
 - **Mis apps** con baldosas a cuadro completo, **salvapantallas** con tus series y películas, y **actualizaciones automáticas**.
 
@@ -131,6 +134,10 @@ adb shell settings put secure screensaver_components com.vibox.launcher/.Screens
 *Instalar apps desconocidas* para ViBox.
 
 **¿Y la voz en Fire TV?** El micrófono del mando lo usa Alexa. En ViBox puedes buscar escribiendo, o desde el móvil con el mando de la web.
+
+**¿Puedo ver las películas en el móvil?** Sí, en la web de ViBox (se instala como una app con *Añadir a pantalla de inicio*).
+Si un vídeo no se puede ver en el navegador, ViBox usa la versión compatible de tu debrid (Real-Debrid o Premiumize)
+o te deja abrirlo en VLC, Just Player o Infuse con un toque.
 
 **¿Los perfiles comparten Trakt o el debrid?** Solo si tú quieres: cada perfil puede usar la misma cuenta que otro o una distinta.
 
