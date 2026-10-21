@@ -46,6 +46,22 @@ que configura cada usuario.
 
 Funciona con mando (cruceta + OK), en procesadores de 32 y 64 bits y no necesita los servicios de Google.
 
+## Instalación rápida (sin ordenador ni comandos)
+
+Todo con el mando, en Google TV, Android TV y Fire TV:
+
+1. Instala **Downloader** desde la tienda de la tele (Google Play o la de Amazon).
+2. Dale permiso a Downloader para **instalar apps desconocidas**. Es el primer permiso obligatorio.
+3. Escribe en Downloader esta dirección e instala ViBox:
+   `https://github.com/GuilleMos/ViBox-releases/releases/latest/download/ViBox.apk`
+4. En ViBox, entra en *Ajustes → Pantalla de inicio → Activar «botón Inicio → ViBox»* y activa **ViBox: botón Inicio**.
+   Es el segundo permiso obligatorio. Desde ahí, el botón Inicio del mando abre ViBox, también en Fire TV.
+
+> Android obliga a dar estos dos permisos a mano por seguridad; ninguna app puede hacerlo sola.
+> El ordenador (ADB) solo hace falta para extras, como desactivar del todo el inicio de Google TV para liberar memoria.
+
+Abajo tienes los pasos detallados de cada aparato.
+
 ## Instalación
 
 ### Google TV y Android TV
